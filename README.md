@@ -1,11 +1,26 @@
 # myblog
-So Hello everyone
-`inline code`
-```python
-def hello_world():
-    print("Hello, World!")
+
+To check version of git:
+```git
+git --version
 ```
->Keep smiling
+
+To change name of the user
+```git
+git config --global user.name 
+```
+**Note:** Name must be written under `double brackets` if it contains any space between them, if not then write them without quotes.
+
+To change email
+```git
+git config --global user.email
+```
 
 
-[abcLink](https://github.com/mdfurquanalam786/myblog/blob/main/abc.md)
+```git
+
+```
+
+
+
+
