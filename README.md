@@ -1,4 +1,4 @@
-# myblog
+# Git and Github
 
 ### Checking git version
 ```git
@@ -9,7 +9,7 @@ git --version
 ```git
 git config --global user.name 
 ```
-**Note:** Name must be written under `double brackets` if it contains any space between them, if not then write them without quotes.
+Name must be written under `double brackets` if it contains any space between them, if not then write them without quotes.
 
 ### Setting up user email
 ```git
@@ -30,7 +30,6 @@ code
 ```git
 git config --global core.editor "code --wait"
 ```
-**Note:** 
 - By default, our editor is Vim : when you type the only command before double quotes it will give you nothing which means that our default editor is Vim
 - Here this is the wait floag '--wait' to tell the terminal to wait until we close vs code instance (that particular tab).
 
@@ -38,8 +37,27 @@ git config --global core.editor "code --wait"
 ```git
 git config --global -e
 ```
-**Note:** It will open .gitconfig file in vs code
+It will open .gitconfig file in vs code
 
+### Configuring End of Lines
+```git
+git config --global core.autocrlf true
+```
+- As we know that in Windows we have Carriage Return(cr) and Line Feed(lf) at the end of a line but only Line Feed(lf) in macos and linux so when differenct operating system work together we need to configure our end of lines so that we won't get any error in future.
+- and need to set to input for macos system
+
+### Git help
+```git
+git config --help
+```
+- It will open a html help page for you.
+
+```git
+git config -h
+```
+- It will open : short summary of commands on git bash
+
+### 
 
 
 
