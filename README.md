@@ -7,13 +7,13 @@ git --version
 
 ### Setting up user name
 ```git
-git config --global user.name 
+git config --global user.name "name of user"
 ```
 Name must be written under `double brackets` if it contains any space between them, if not then write them without quotes.
 
 ### Setting up user email
 ```git
-git config --global user.email
+git config --global user.email "email of user"
 ```
 
 ### How to Add VS Code to the system PATH
@@ -57,8 +57,31 @@ git config -h
 ```
 - It will open : short summary of commands on git bash
 
-### 
+### Creating a directory
+```git
+mkdir (directory name)
+```
 
+### Changing Directory
+```git
+cd (directory name)
+```
+
+### Changing Drive
+```git
+cd (Drive:)
+```
+
+### To initialize new git repository
+```git
+git init
+```
+Message: Initialized empty Git repository in 'path'
+
+### To list all files and directories
+```git
+ls
+```
 
 
 
